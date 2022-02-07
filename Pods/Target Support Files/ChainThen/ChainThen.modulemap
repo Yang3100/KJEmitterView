@@ -1,0 +1,6 @@
+framework module ChainThen {
+  umbrella header "ChainThen-umbrella.h"
+
+  export *
+  module * { export * }
+}

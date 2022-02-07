@@ -1,0 +1,909 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		683E24FA272A48690026C747 /* KJEmitter.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 683E2435272A48680026C747 /* KJEmitter.bundle */; };
+		683E24FB272A48690026C747 /* KJEmitterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 683E2436272A48680026C747 /* KJEmitterView.m */; };
+		683E24FC272A48690026C747 /* KJEmitterLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 683E2438272A48680026C747 /* KJEmitterLayer.m */; };
+		683E24FD272A48690026C747 /* KJEmitterLayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 683E2439272A48680026C747 /* KJEmitterLayer.bundle */; };
+		683E24FE272A48690026C747 /* KJErrorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 683E243C272A48680026C747 /* KJErrorView.m */; };
+		683E24FF272A48690026C747 /* KJErrorView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 683E243D272A48680026C747 /* KJErrorView.bundle */; };
+		683E2500272A48690026C747 /* KJLeetCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 683E2440272A48680026C747 /* KJLeetCode.m */; };
+		683E2542272A48690026C747 /* NSBundle+KJLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = 683E24E5272A48690026C747 /* NSBundle+KJLanguage.m */; };
+		683E2543272A48690026C747 /* KJLoadLanguageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 683E24E9272A48690026C747 /* KJLoadLanguageViewController.m */; };
+		683E2544272A48690026C747 /* KJLanguageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 683E24EA272A48690026C747 /* KJLanguageManager.m */; };
+		683E2546272A48690026C747 /* KJSwitchControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 683E24F2272A48690026C747 /* KJSwitchControl.m */; };
+		683E2547272A48690026C747 /* KJSelectControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 683E24F6272A48690026C747 /* KJSelectControl.m */; };
+		683E2548272A48690026C747 /* KJAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 683E24F8272A48690026C747 /* KJAlertView.m */; };
+		6869043321B25C5C00ED072F /* KJEmitterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6869043221B25C5C00ED072F /* KJEmitterVC.m */; };
+		687115D22263156B009EC3E0 /* KJSelectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 687115D02263156B009EC3E0 /* KJSelectController.m */; };
+		687115D32263156B009EC3E0 /* KJSelectController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 687115D12263156B009EC3E0 /* KJSelectController.xib */; };
+		687115D622631878009EC3E0 /* KJErrorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 687115D522631878009EC3E0 /* KJErrorVC.m */; };
+		687115DE22633BF0009EC3E0 /* KJSwitchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 687115DC22633BF0009EC3E0 /* KJSwitchVC.m */; };
+		687115DF22633BF0009EC3E0 /* KJSwitchVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 687115DD22633BF0009EC3E0 /* KJSwitchVC.xib */; };
+		68776CEA21AC34A0000A1435 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68776CE921AC34A0000A1435 /* AppDelegate.m */; };
+		68776CED21AC34A0000A1435 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68776CEC21AC34A0000A1435 /* ViewController.m */; };
+		68776CF021AC34A0000A1435 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68776CEE21AC34A0000A1435 /* Main.storyboard */; };
+		68776CF221AC34A0000A1435 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68776CF121AC34A0000A1435 /* Assets.xcassets */; };
+		68776CF521AC34A0000A1435 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68776CF321AC34A0000A1435 /* LaunchScreen.storyboard */; };
+		68776CF821AC34A0000A1435 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68776CF721AC34A0000A1435 /* main.m */; };
+		68E283B821B38DCC009B708F /* KJAlertVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E283B621B38DCC009B708F /* KJAlertVC.m */; };
+		68E283B921B38DCC009B708F /* KJAlertVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68E283B721B38DCC009B708F /* KJAlertVC.xib */; };
+		988C277B43737CB4C2B90F48 /* Pods_KJEmitterView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1912039BF08D8F172E52EC54 /* Pods_KJEmitterView.framework */; };
+		C964E58C264FB7C600F56853 /* LeetCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C964E58B264FB7C600F56853 /* LeetCodeViewController.m */; };
+		C99592A52644DA9800B8EDC9 /* KJLanguageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C995926B2644DA9800B8EDC9 /* KJLanguageVC.xib */; };
+		C99592A62644DA9800B8EDC9 /* LocalizableTest.strings in Resources */ = {isa = PBXBuildFile; fileRef = C995926D2644DA9800B8EDC9 /* LocalizableTest.strings */; };
+		C99592A72644DA9800B8EDC9 /* KJRuntimeTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C99592712644DA9800B8EDC9 /* KJRuntimeTestVC.m */; };
+		C99592A82644DA9800B8EDC9 /* KJArrayTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C99592732644DA9800B8EDC9 /* KJArrayTestVC.m */; };
+		C99592A92644DA9800B8EDC9 /* KJLanguageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C99592762644DA9800B8EDC9 /* KJLanguageVC.m */; };
+		C99592AB2644DA9800B8EDC9 /* KJAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C99592792644DA9800B8EDC9 /* KJAnimationVC.m */; };
+		C99592AC2644DA9800B8EDC9 /* KJImageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C995927C2644DA9800B8EDC9 /* KJImageVC.xib */; };
+		C99592AD2644DA9800B8EDC9 /* KJFloodImageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C995927D2644DA9800B8EDC9 /* KJFloodImageVC.xib */; };
+		C99592AE2644DA9800B8EDC9 /* KJFilterImageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C995927E2644DA9800B8EDC9 /* KJFilterImageVC.xib */; };
+		C99592AF2644DA9800B8EDC9 /* KJCodeImageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C99592802644DA9800B8EDC9 /* KJCodeImageVC.m */; };
+		C99592B02644DA9800B8EDC9 /* KJCoreImageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C99592812644DA9800B8EDC9 /* KJCoreImageVC.xib */; };
+		C99592B12644DA9800B8EDC9 /* KJImageCompressVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C99592882644DA9800B8EDC9 /* KJImageCompressVC.m */; };
+		C99592B22644DA9800B8EDC9 /* KJImageJointVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C99592892644DA9800B8EDC9 /* KJImageJointVC.m */; };
+		C99592B32644DA9800B8EDC9 /* KJCoreImageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C995928A2644DA9800B8EDC9 /* KJCoreImageVC.m */; };
+		C99592B42644DA9800B8EDC9 /* KJFloodImageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C995928B2644DA9800B8EDC9 /* KJFloodImageVC.m */; };
+		C99592B52644DA9800B8EDC9 /* KJImageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C995928C2644DA9800B8EDC9 /* KJImageVC.m */; };
+		C99592B62644DA9800B8EDC9 /* KJFilterImageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C995928D2644DA9800B8EDC9 /* KJFilterImageVC.m */; };
+		C99592B72644DA9800B8EDC9 /* KJTextFieldVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C995928F2644DA9800B8EDC9 /* KJTextFieldVC.m */; };
+		C99592B82644DA9800B8EDC9 /* KJImageViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C99592902644DA9800B8EDC9 /* KJImageViewVC.m */; };
+		C99592B92644DA9800B8EDC9 /* KJCollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C99592912644DA9800B8EDC9 /* KJCollectionVC.m */; };
+		C99592BA2644DA9800B8EDC9 /* KJButtonVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C99592922644DA9800B8EDC9 /* KJButtonVC.m */; };
+		C99592BB2644DA9800B8EDC9 /* KJLabelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C99592952644DA9800B8EDC9 /* KJLabelVC.m */; };
+		C99592BC2644DA9800B8EDC9 /* KJGestureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C99592972644DA9800B8EDC9 /* KJGestureVC.m */; };
+		C99592BD2644DA9800B8EDC9 /* KJTextViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C99592982644DA9800B8EDC9 /* KJTextViewVC.m */; };
+		C99592BE2644DA9800B8EDC9 /* KJViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C995929C2644DA9800B8EDC9 /* KJViewVC.m */; };
+		C99592C12644DA9800B8EDC9 /* KJImageBlurVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C99592A22644DA9800B8EDC9 /* KJImageBlurVC.m */; };
+		C99593BA2644E18C00B8EDC9 /* KJHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C99593B62644E18C00B8EDC9 /* KJHomeView.m */; };
+		C99593BB2644E18C00B8EDC9 /* KJHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C99593B72644E18C00B8EDC9 /* KJHomeModel.m */; };
+		C99593BF2644E93200B8EDC9 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C99593BE2644E93200B8EDC9 /* BaseViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1912039BF08D8F172E52EC54 /* Pods_KJEmitterView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KJEmitterView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		683E2434272A48680026C747 /* KJEmitterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJEmitterView.h; sourceTree = "<group>"; };
+		683E2435272A48680026C747 /* KJEmitter.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KJEmitter.bundle; sourceTree = "<group>"; };
+		683E2436272A48680026C747 /* KJEmitterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJEmitterView.m; sourceTree = "<group>"; };
+		683E2438272A48680026C747 /* KJEmitterLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJEmitterLayer.m; sourceTree = "<group>"; };
+		683E2439272A48680026C747 /* KJEmitterLayer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KJEmitterLayer.bundle; sourceTree = "<group>"; };
+		683E243A272A48680026C747 /* KJEmitterLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJEmitterLayer.h; sourceTree = "<group>"; };
+		683E243C272A48680026C747 /* KJErrorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJErrorView.m; sourceTree = "<group>"; };
+		683E243D272A48680026C747 /* KJErrorView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KJErrorView.bundle; sourceTree = "<group>"; };
+		683E243E272A48680026C747 /* KJErrorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJErrorView.h; sourceTree = "<group>"; };
+		683E2440272A48680026C747 /* KJLeetCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJLeetCode.m; sourceTree = "<group>"; };
+		683E2441272A48680026C747 /* KJLeetCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJLeetCode.h; sourceTree = "<group>"; };
+		683E24E5272A48690026C747 /* NSBundle+KJLanguage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+KJLanguage.m"; sourceTree = "<group>"; };
+		683E24E6272A48690026C747 /* KJLanguageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJLanguageManager.h; sourceTree = "<group>"; };
+		683E24E7272A48690026C747 /* KJLoadLanguageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJLoadLanguageViewController.h; sourceTree = "<group>"; };
+		683E24E8272A48690026C747 /* NSBundle+KJLanguage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+KJLanguage.h"; sourceTree = "<group>"; };
+		683E24E9272A48690026C747 /* KJLoadLanguageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJLoadLanguageViewController.m; sourceTree = "<group>"; };
+		683E24EA272A48690026C747 /* KJLanguageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJLanguageManager.m; sourceTree = "<group>"; };
+		683E24EB272A48690026C747 /* KJEmitterHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJEmitterHeader.h; sourceTree = "<group>"; };
+		683E24F2272A48690026C747 /* KJSwitchControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJSwitchControl.m; sourceTree = "<group>"; };
+		683E24F3272A48690026C747 /* KJSwitchControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJSwitchControl.h; sourceTree = "<group>"; };
+		683E24F5272A48690026C747 /* KJSelectControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJSelectControl.h; sourceTree = "<group>"; };
+		683E24F6272A48690026C747 /* KJSelectControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJSelectControl.m; sourceTree = "<group>"; };
+		683E24F8272A48690026C747 /* KJAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJAlertView.m; sourceTree = "<group>"; };
+		683E24F9272A48690026C747 /* KJAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJAlertView.h; sourceTree = "<group>"; };
+		6869042D21B25B1000ED072F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6869043121B25C5C00ED072F /* KJEmitterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJEmitterVC.h; sourceTree = "<group>"; };
+		6869043221B25C5C00ED072F /* KJEmitterVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJEmitterVC.m; sourceTree = "<group>"; };
+		687115CF2263156B009EC3E0 /* KJSelectController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJSelectController.h; sourceTree = "<group>"; };
+		687115D02263156B009EC3E0 /* KJSelectController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJSelectController.m; sourceTree = "<group>"; };
+		687115D12263156B009EC3E0 /* KJSelectController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KJSelectController.xib; sourceTree = "<group>"; };
+		687115D422631878009EC3E0 /* KJErrorVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJErrorVC.h; sourceTree = "<group>"; };
+		687115D522631878009EC3E0 /* KJErrorVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJErrorVC.m; sourceTree = "<group>"; };
+		687115DB22633BF0009EC3E0 /* KJSwitchVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJSwitchVC.h; sourceTree = "<group>"; };
+		687115DC22633BF0009EC3E0 /* KJSwitchVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJSwitchVC.m; sourceTree = "<group>"; };
+		687115DD22633BF0009EC3E0 /* KJSwitchVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KJSwitchVC.xib; sourceTree = "<group>"; };
+		68776CE521AC349F000A1435 /* KJEmitterView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KJEmitterView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68776CE821AC34A0000A1435 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		68776CE921AC34A0000A1435 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		68776CEB21AC34A0000A1435 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		68776CEC21AC34A0000A1435 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		68776CEF21AC34A0000A1435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68776CF121AC34A0000A1435 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68776CF421AC34A0000A1435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68776CF621AC34A0000A1435 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68776CF721AC34A0000A1435 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68E283B521B38DCC009B708F /* KJAlertVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJAlertVC.h; sourceTree = "<group>"; };
+		68E283B621B38DCC009B708F /* KJAlertVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJAlertVC.m; sourceTree = "<group>"; };
+		68E283B721B38DCC009B708F /* KJAlertVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KJAlertVC.xib; sourceTree = "<group>"; };
+		91A09EA5BB6E36BB82AB6484 /* Pods-KJEmitterView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KJEmitterView.debug.xcconfig"; path = "Target Support Files/Pods-KJEmitterView/Pods-KJEmitterView.debug.xcconfig"; sourceTree = "<group>"; };
+		BD437750AE735B3C6B5BB0A3 /* Pods-KJEmitterView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KJEmitterView.release.xcconfig"; path = "Target Support Files/Pods-KJEmitterView/Pods-KJEmitterView.release.xcconfig"; sourceTree = "<group>"; };
+		C964E58A264FB7C600F56853 /* LeetCodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeetCodeViewController.h; sourceTree = "<group>"; };
+		C964E58B264FB7C600F56853 /* LeetCodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeetCodeViewController.m; sourceTree = "<group>"; };
+		C995926C2644DA9800B8EDC9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/KJLanguageVC.xib"; sourceTree = "<group>"; };
+		C995926E2644DA9800B8EDC9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LocalizableTest.strings"; sourceTree = "<group>"; };
+		C995926F2644DA9800B8EDC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KJLanguageVC.xib; sourceTree = "<group>"; };
+		C99592702644DA9800B8EDC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LocalizableTest.strings; sourceTree = "<group>"; };
+		C99592712644DA9800B8EDC9 /* KJRuntimeTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJRuntimeTestVC.m; sourceTree = "<group>"; };
+		C99592722644DA9800B8EDC9 /* KJLanguageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJLanguageVC.h; sourceTree = "<group>"; };
+		C99592732644DA9800B8EDC9 /* KJArrayTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJArrayTestVC.m; sourceTree = "<group>"; };
+		C99592742644DA9800B8EDC9 /* KJAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJAnimationVC.h; sourceTree = "<group>"; };
+		C99592762644DA9800B8EDC9 /* KJLanguageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJLanguageVC.m; sourceTree = "<group>"; };
+		C99592772644DA9800B8EDC9 /* KJRuntimeTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJRuntimeTestVC.h; sourceTree = "<group>"; };
+		C99592792644DA9800B8EDC9 /* KJAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJAnimationVC.m; sourceTree = "<group>"; };
+		C995927A2644DA9800B8EDC9 /* KJArrayTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJArrayTestVC.h; sourceTree = "<group>"; };
+		C995927C2644DA9800B8EDC9 /* KJImageVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KJImageVC.xib; sourceTree = "<group>"; };
+		C995927D2644DA9800B8EDC9 /* KJFloodImageVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KJFloodImageVC.xib; sourceTree = "<group>"; };
+		C995927E2644DA9800B8EDC9 /* KJFilterImageVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KJFilterImageVC.xib; sourceTree = "<group>"; };
+		C995927F2644DA9800B8EDC9 /* KJImageCompressVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJImageCompressVC.h; sourceTree = "<group>"; };
+		C99592802644DA9800B8EDC9 /* KJCodeImageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJCodeImageVC.m; sourceTree = "<group>"; };
+		C99592812644DA9800B8EDC9 /* KJCoreImageVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KJCoreImageVC.xib; sourceTree = "<group>"; };
+		C99592822644DA9800B8EDC9 /* KJFloodImageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJFloodImageVC.h; sourceTree = "<group>"; };
+		C99592832644DA9800B8EDC9 /* KJCoreImageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJCoreImageVC.h; sourceTree = "<group>"; };
+		C99592842644DA9800B8EDC9 /* KJImageJointVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJImageJointVC.h; sourceTree = "<group>"; };
+		C99592852644DA9800B8EDC9 /* KJFilterImageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJFilterImageVC.h; sourceTree = "<group>"; };
+		C99592862644DA9800B8EDC9 /* KJImageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJImageVC.h; sourceTree = "<group>"; };
+		C99592872644DA9800B8EDC9 /* KJCodeImageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJCodeImageVC.h; sourceTree = "<group>"; };
+		C99592882644DA9800B8EDC9 /* KJImageCompressVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJImageCompressVC.m; sourceTree = "<group>"; };
+		C99592892644DA9800B8EDC9 /* KJImageJointVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJImageJointVC.m; sourceTree = "<group>"; };
+		C995928A2644DA9800B8EDC9 /* KJCoreImageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJCoreImageVC.m; sourceTree = "<group>"; };
+		C995928B2644DA9800B8EDC9 /* KJFloodImageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJFloodImageVC.m; sourceTree = "<group>"; };
+		C995928C2644DA9800B8EDC9 /* KJImageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJImageVC.m; sourceTree = "<group>"; };
+		C995928D2644DA9800B8EDC9 /* KJFilterImageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJFilterImageVC.m; sourceTree = "<group>"; };
+		C995928F2644DA9800B8EDC9 /* KJTextFieldVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJTextFieldVC.m; sourceTree = "<group>"; };
+		C99592902644DA9800B8EDC9 /* KJImageViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJImageViewVC.m; sourceTree = "<group>"; };
+		C99592912644DA9800B8EDC9 /* KJCollectionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJCollectionVC.m; sourceTree = "<group>"; };
+		C99592922644DA9800B8EDC9 /* KJButtonVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJButtonVC.m; sourceTree = "<group>"; };
+		C99592932644DA9800B8EDC9 /* KJViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJViewVC.h; sourceTree = "<group>"; };
+		C99592952644DA9800B8EDC9 /* KJLabelVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJLabelVC.m; sourceTree = "<group>"; };
+		C99592972644DA9800B8EDC9 /* KJGestureVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJGestureVC.m; sourceTree = "<group>"; };
+		C99592982644DA9800B8EDC9 /* KJTextViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJTextViewVC.m; sourceTree = "<group>"; };
+		C99592992644DA9800B8EDC9 /* KJImageBlurVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJImageBlurVC.h; sourceTree = "<group>"; };
+		C995929A2644DA9800B8EDC9 /* KJImageViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJImageViewVC.h; sourceTree = "<group>"; };
+		C995929B2644DA9800B8EDC9 /* KJTextFieldVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJTextFieldVC.h; sourceTree = "<group>"; };
+		C995929C2644DA9800B8EDC9 /* KJViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJViewVC.m; sourceTree = "<group>"; };
+		C995929D2644DA9800B8EDC9 /* KJButtonVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJButtonVC.h; sourceTree = "<group>"; };
+		C995929E2644DA9800B8EDC9 /* KJCollectionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJCollectionVC.h; sourceTree = "<group>"; };
+		C99592A02644DA9800B8EDC9 /* KJLabelVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJLabelVC.h; sourceTree = "<group>"; };
+		C99592A22644DA9800B8EDC9 /* KJImageBlurVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJImageBlurVC.m; sourceTree = "<group>"; };
+		C99592A32644DA9800B8EDC9 /* KJTextViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJTextViewVC.h; sourceTree = "<group>"; };
+		C99592A42644DA9800B8EDC9 /* KJGestureVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJGestureVC.h; sourceTree = "<group>"; };
+		C99593B62644E18C00B8EDC9 /* KJHomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJHomeView.m; sourceTree = "<group>"; };
+		C99593B72644E18C00B8EDC9 /* KJHomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJHomeModel.m; sourceTree = "<group>"; };
+		C99593B82644E18C00B8EDC9 /* KJHomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJHomeView.h; sourceTree = "<group>"; };
+		C99593B92644E18C00B8EDC9 /* KJHomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJHomeModel.h; sourceTree = "<group>"; };
+		C99593BD2644E93200B8EDC9 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		C99593BE2644E93200B8EDC9 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68776CE221AC349F000A1435 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				988C277B43737CB4C2B90F48 /* Pods_KJEmitterView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20B619172772BE4200638B26 /* Case */ = {
+			isa = PBXGroup;
+			children = (
+				C964E589264FB65600F56853 /* LeetCodeDemo */,
+				6869042B21B253FC00ED072F /* TextDemo */,
+			);
+			path = Case;
+			sourceTree = "<group>";
+		};
+		20B619182772BF7100638B26 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				68776CF121AC34A0000A1435 /* Assets.xcassets */,
+				68776CF621AC34A0000A1435 /* Info.plist */,
+				68776CF321AC34A0000A1435 /* LaunchScreen.storyboard */,
+				68776CF721AC34A0000A1435 /* main.m */,
+				68776CEE21AC34A0000A1435 /* Main.storyboard */,
+				6869042D21B25B1000ED072F /* PrefixHeader.pch */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		20B619192772BF8B00638B26 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C99593BD2644E93200B8EDC9 /* BaseViewController.h */,
+				C99593BE2644E93200B8EDC9 /* BaseViewController.m */,
+				C99593B92644E18C00B8EDC9 /* KJHomeModel.h */,
+				C99593B72644E18C00B8EDC9 /* KJHomeModel.m */,
+				C99593B82644E18C00B8EDC9 /* KJHomeView.h */,
+				C99593B62644E18C00B8EDC9 /* KJHomeView.m */,
+				68776CEB21AC34A0000A1435 /* ViewController.h */,
+				68776CEC21AC34A0000A1435 /* ViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		683E2431272A48680026C747 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				683E24EB272A48690026C747 /* KJEmitterHeader.h */,
+				683E2432272A48680026C747 /* Classes */,
+				683E24F0272A48690026C747 /* Control */,
+				683E24E4272A48690026C747 /* Language */,
+				683E243F272A48680026C747 /* LeetCode */,
+			);
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		683E2432272A48680026C747 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				683E2437272A48680026C747 /* EmitterLayer */,
+				683E2433272A48680026C747 /* EmitterView */,
+				683E243B272A48680026C747 /* ErrorView */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		683E2433272A48680026C747 /* EmitterView */ = {
+			isa = PBXGroup;
+			children = (
+				683E2435272A48680026C747 /* KJEmitter.bundle */,
+				683E2434272A48680026C747 /* KJEmitterView.h */,
+				683E2436272A48680026C747 /* KJEmitterView.m */,
+			);
+			path = EmitterView;
+			sourceTree = "<group>";
+		};
+		683E2437272A48680026C747 /* EmitterLayer */ = {
+			isa = PBXGroup;
+			children = (
+				683E2439272A48680026C747 /* KJEmitterLayer.bundle */,
+				683E243A272A48680026C747 /* KJEmitterLayer.h */,
+				683E2438272A48680026C747 /* KJEmitterLayer.m */,
+			);
+			path = EmitterLayer;
+			sourceTree = "<group>";
+		};
+		683E243B272A48680026C747 /* ErrorView */ = {
+			isa = PBXGroup;
+			children = (
+				683E243C272A48680026C747 /* KJErrorView.m */,
+				683E243D272A48680026C747 /* KJErrorView.bundle */,
+				683E243E272A48680026C747 /* KJErrorView.h */,
+			);
+			path = ErrorView;
+			sourceTree = "<group>";
+		};
+		683E243F272A48680026C747 /* LeetCode */ = {
+			isa = PBXGroup;
+			children = (
+				683E2441272A48680026C747 /* KJLeetCode.h */,
+				683E2440272A48680026C747 /* KJLeetCode.m */,
+			);
+			path = LeetCode;
+			sourceTree = "<group>";
+		};
+		683E24E4272A48690026C747 /* Language */ = {
+			isa = PBXGroup;
+			children = (
+				683E24E6272A48690026C747 /* KJLanguageManager.h */,
+				683E24EA272A48690026C747 /* KJLanguageManager.m */,
+				683E24E7272A48690026C747 /* KJLoadLanguageViewController.h */,
+				683E24E9272A48690026C747 /* KJLoadLanguageViewController.m */,
+				683E24E8272A48690026C747 /* NSBundle+KJLanguage.h */,
+				683E24E5272A48690026C747 /* NSBundle+KJLanguage.m */,
+			);
+			path = Language;
+			sourceTree = "<group>";
+		};
+		683E24F0272A48690026C747 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				683E24F7272A48690026C747 /* AlertView */,
+				683E24F4272A48690026C747 /* SelectControl */,
+				683E24F1272A48690026C747 /* SwitchContorl */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		683E24F1272A48690026C747 /* SwitchContorl */ = {
+			isa = PBXGroup;
+			children = (
+				683E24F2272A48690026C747 /* KJSwitchControl.m */,
+				683E24F3272A48690026C747 /* KJSwitchControl.h */,
+			);
+			path = SwitchContorl;
+			sourceTree = "<group>";
+		};
+		683E24F4272A48690026C747 /* SelectControl */ = {
+			isa = PBXGroup;
+			children = (
+				683E24F5272A48690026C747 /* KJSelectControl.h */,
+				683E24F6272A48690026C747 /* KJSelectControl.m */,
+			);
+			path = SelectControl;
+			sourceTree = "<group>";
+		};
+		683E24F7272A48690026C747 /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				683E24F8272A48690026C747 /* KJAlertView.m */,
+				683E24F9272A48690026C747 /* KJAlertView.h */,
+			);
+			path = AlertView;
+			sourceTree = "<group>";
+		};
+		6869042B21B253FC00ED072F /* TextDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C995926A2644DA9800B8EDC9 /* 其他相关 */,
+				C995927B2644DA9800B8EDC9 /* 图片相关 */,
+				6885690E2304F3D400529188 /* 自定义控件 */,
+				6885690D2304F3C500529188 /* CALayer类 */,
+				C995928E2644DA9800B8EDC9 /* Kit扩展类 */,
+			);
+			path = TextDemo;
+			sourceTree = "<group>";
+		};
+		68776CDC21AC349F000A1435 = {
+			isa = PBXGroup;
+			children = (
+				68776CE721AC349F000A1435 /* KJEmitterView */,
+				68776CE621AC349F000A1435 /* Products */,
+				76E584997EAF6664C70DEA76 /* Frameworks */,
+				E63EF839D5C8A4AA009F5CA5 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		68776CE621AC349F000A1435 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68776CE521AC349F000A1435 /* KJEmitterView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68776CE721AC349F000A1435 /* KJEmitterView */ = {
+			isa = PBXGroup;
+			children = (
+				68776CE821AC34A0000A1435 /* AppDelegate.h */,
+				68776CE921AC34A0000A1435 /* AppDelegate.m */,
+				20B619172772BE4200638B26 /* Case */,
+				20B619192772BF8B00638B26 /* Home */,
+				20B619182772BF7100638B26 /* Resources */,
+				683E2431272A48680026C747 /* Sources */,
+			);
+			path = KJEmitterView;
+			sourceTree = "<group>";
+		};
+		6885690D2304F3C500529188 /* CALayer类 */ = {
+			isa = PBXGroup;
+			children = (
+				6869043121B25C5C00ED072F /* KJEmitterVC.h */,
+				6869043221B25C5C00ED072F /* KJEmitterVC.m */,
+				687115D422631878009EC3E0 /* KJErrorVC.h */,
+				687115D522631878009EC3E0 /* KJErrorVC.m */,
+			);
+			path = "CALayer类";
+			sourceTree = "<group>";
+		};
+		6885690E2304F3D400529188 /* 自定义控件 */ = {
+			isa = PBXGroup;
+			children = (
+				68E283B521B38DCC009B708F /* KJAlertVC.h */,
+				68E283B621B38DCC009B708F /* KJAlertVC.m */,
+				68E283B721B38DCC009B708F /* KJAlertVC.xib */,
+				687115CF2263156B009EC3E0 /* KJSelectController.h */,
+				687115D02263156B009EC3E0 /* KJSelectController.m */,
+				687115D12263156B009EC3E0 /* KJSelectController.xib */,
+				687115DB22633BF0009EC3E0 /* KJSwitchVC.h */,
+				687115DC22633BF0009EC3E0 /* KJSwitchVC.m */,
+				687115DD22633BF0009EC3E0 /* KJSwitchVC.xib */,
+			);
+			path = "自定义控件";
+			sourceTree = "<group>";
+		};
+		76E584997EAF6664C70DEA76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1912039BF08D8F172E52EC54 /* Pods_KJEmitterView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C964E589264FB65600F56853 /* LeetCodeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C964E58A264FB7C600F56853 /* LeetCodeViewController.h */,
+				C964E58B264FB7C600F56853 /* LeetCodeViewController.m */,
+			);
+			path = LeetCodeDemo;
+			sourceTree = "<group>";
+		};
+		C995926A2644DA9800B8EDC9 /* 其他相关 */ = {
+			isa = PBXGroup;
+			children = (
+				C995927A2644DA9800B8EDC9 /* KJArrayTestVC.h */,
+				C99592732644DA9800B8EDC9 /* KJArrayTestVC.m */,
+				C99592722644DA9800B8EDC9 /* KJLanguageVC.h */,
+				C99592762644DA9800B8EDC9 /* KJLanguageVC.m */,
+				C995926B2644DA9800B8EDC9 /* KJLanguageVC.xib */,
+				C99592772644DA9800B8EDC9 /* KJRuntimeTestVC.h */,
+				C99592712644DA9800B8EDC9 /* KJRuntimeTestVC.m */,
+				C995926D2644DA9800B8EDC9 /* LocalizableTest.strings */,
+			);
+			path = "其他相关";
+			sourceTree = "<group>";
+		};
+		C995927B2644DA9800B8EDC9 /* 图片相关 */ = {
+			isa = PBXGroup;
+			children = (
+				C99592872644DA9800B8EDC9 /* KJCodeImageVC.h */,
+				C99592802644DA9800B8EDC9 /* KJCodeImageVC.m */,
+				C99592832644DA9800B8EDC9 /* KJCoreImageVC.h */,
+				C995928A2644DA9800B8EDC9 /* KJCoreImageVC.m */,
+				C99592812644DA9800B8EDC9 /* KJCoreImageVC.xib */,
+				C99592852644DA9800B8EDC9 /* KJFilterImageVC.h */,
+				C995928D2644DA9800B8EDC9 /* KJFilterImageVC.m */,
+				C995927E2644DA9800B8EDC9 /* KJFilterImageVC.xib */,
+				C99592822644DA9800B8EDC9 /* KJFloodImageVC.h */,
+				C995928B2644DA9800B8EDC9 /* KJFloodImageVC.m */,
+				C995927D2644DA9800B8EDC9 /* KJFloodImageVC.xib */,
+				C995927F2644DA9800B8EDC9 /* KJImageCompressVC.h */,
+				C99592882644DA9800B8EDC9 /* KJImageCompressVC.m */,
+				C99592842644DA9800B8EDC9 /* KJImageJointVC.h */,
+				C99592892644DA9800B8EDC9 /* KJImageJointVC.m */,
+				C99592862644DA9800B8EDC9 /* KJImageVC.h */,
+				C995928C2644DA9800B8EDC9 /* KJImageVC.m */,
+				C995927C2644DA9800B8EDC9 /* KJImageVC.xib */,
+			);
+			path = "图片相关";
+			sourceTree = "<group>";
+		};
+		C995928E2644DA9800B8EDC9 /* Kit扩展类 */ = {
+			isa = PBXGroup;
+			children = (
+				C99592742644DA9800B8EDC9 /* KJAnimationVC.h */,
+				C99592792644DA9800B8EDC9 /* KJAnimationVC.m */,
+				C995929D2644DA9800B8EDC9 /* KJButtonVC.h */,
+				C99592922644DA9800B8EDC9 /* KJButtonVC.m */,
+				C995929E2644DA9800B8EDC9 /* KJCollectionVC.h */,
+				C99592912644DA9800B8EDC9 /* KJCollectionVC.m */,
+				C99592A42644DA9800B8EDC9 /* KJGestureVC.h */,
+				C99592972644DA9800B8EDC9 /* KJGestureVC.m */,
+				C99592992644DA9800B8EDC9 /* KJImageBlurVC.h */,
+				C99592A22644DA9800B8EDC9 /* KJImageBlurVC.m */,
+				C995929A2644DA9800B8EDC9 /* KJImageViewVC.h */,
+				C99592902644DA9800B8EDC9 /* KJImageViewVC.m */,
+				C99592A02644DA9800B8EDC9 /* KJLabelVC.h */,
+				C99592952644DA9800B8EDC9 /* KJLabelVC.m */,
+				C995929B2644DA9800B8EDC9 /* KJTextFieldVC.h */,
+				C995928F2644DA9800B8EDC9 /* KJTextFieldVC.m */,
+				C99592A32644DA9800B8EDC9 /* KJTextViewVC.h */,
+				C99592982644DA9800B8EDC9 /* KJTextViewVC.m */,
+				C99592932644DA9800B8EDC9 /* KJViewVC.h */,
+				C995929C2644DA9800B8EDC9 /* KJViewVC.m */,
+			);
+			path = "Kit扩展类";
+			sourceTree = "<group>";
+		};
+		E63EF839D5C8A4AA009F5CA5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91A09EA5BB6E36BB82AB6484 /* Pods-KJEmitterView.debug.xcconfig */,
+				BD437750AE735B3C6B5BB0A3 /* Pods-KJEmitterView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68776CE421AC349F000A1435 /* KJEmitterView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68776CFB21AC34A0000A1435 /* Build configuration list for PBXNativeTarget "KJEmitterView" */;
+			buildPhases = (
+				B52A06DA0806674B77C968E8 /* [CP] Check Pods Manifest.lock */,
+				68776CE121AC349F000A1435 /* Sources */,
+				68776CE221AC349F000A1435 /* Frameworks */,
+				68776CE321AC349F000A1435 /* Resources */,
+				760C64DE8355519D18CD699D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KJEmitterView;
+			productName = KJEmitterView;
+			productReference = 68776CE521AC349F000A1435 /* KJEmitterView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68776CDD21AC349F000A1435 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				ORGANIZATIONNAME = "杨科军";
+				TargetAttributes = {
+					68776CE421AC349F000A1435 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 68776CE021AC349F000A1435 /* Build configuration list for PBXProject "KJEmitterView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 68776CDC21AC349F000A1435;
+			productRefGroup = 68776CE621AC349F000A1435 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68776CE421AC349F000A1435 /* KJEmitterView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68776CE321AC349F000A1435 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99592AC2644DA9800B8EDC9 /* KJImageVC.xib in Resources */,
+				683E24FF272A48690026C747 /* KJErrorView.bundle in Resources */,
+				68776CF521AC34A0000A1435 /* LaunchScreen.storyboard in Resources */,
+				C99592A52644DA9800B8EDC9 /* KJLanguageVC.xib in Resources */,
+				C99592B02644DA9800B8EDC9 /* KJCoreImageVC.xib in Resources */,
+				68776CF221AC34A0000A1435 /* Assets.xcassets in Resources */,
+				C99592AD2644DA9800B8EDC9 /* KJFloodImageVC.xib in Resources */,
+				68776CF021AC34A0000A1435 /* Main.storyboard in Resources */,
+				C99592AE2644DA9800B8EDC9 /* KJFilterImageVC.xib in Resources */,
+				683E24FD272A48690026C747 /* KJEmitterLayer.bundle in Resources */,
+				687115D32263156B009EC3E0 /* KJSelectController.xib in Resources */,
+				68E283B921B38DCC009B708F /* KJAlertVC.xib in Resources */,
+				C99592A62644DA9800B8EDC9 /* LocalizableTest.strings in Resources */,
+				683E24FA272A48690026C747 /* KJEmitter.bundle in Resources */,
+				687115DF22633BF0009EC3E0 /* KJSwitchVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		760C64DE8355519D18CD699D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KJEmitterView/Pods-KJEmitterView-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KJEmitterView/Pods-KJEmitterView-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KJEmitterView/Pods-KJEmitterView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B52A06DA0806674B77C968E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KJEmitterView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68776CE121AC349F000A1435 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99592B22644DA9800B8EDC9 /* KJImageJointVC.m in Sources */,
+				C99593BB2644E18C00B8EDC9 /* KJHomeModel.m in Sources */,
+				683E2548272A48690026C747 /* KJAlertView.m in Sources */,
+				683E24FB272A48690026C747 /* KJEmitterView.m in Sources */,
+				C99593BF2644E93200B8EDC9 /* BaseViewController.m in Sources */,
+				C99592B12644DA9800B8EDC9 /* KJImageCompressVC.m in Sources */,
+				68E283B821B38DCC009B708F /* KJAlertVC.m in Sources */,
+				C99592BD2644DA9800B8EDC9 /* KJTextViewVC.m in Sources */,
+				C99592B72644DA9800B8EDC9 /* KJTextFieldVC.m in Sources */,
+				C99592A82644DA9800B8EDC9 /* KJArrayTestVC.m in Sources */,
+				C99592B52644DA9800B8EDC9 /* KJImageVC.m in Sources */,
+				C99592AB2644DA9800B8EDC9 /* KJAnimationVC.m in Sources */,
+				C99593BA2644E18C00B8EDC9 /* KJHomeView.m in Sources */,
+				683E2546272A48690026C747 /* KJSwitchControl.m in Sources */,
+				C99592C12644DA9800B8EDC9 /* KJImageBlurVC.m in Sources */,
+				C99592B32644DA9800B8EDC9 /* KJCoreImageVC.m in Sources */,
+				C99592BC2644DA9800B8EDC9 /* KJGestureVC.m in Sources */,
+				C99592B42644DA9800B8EDC9 /* KJFloodImageVC.m in Sources */,
+				C99592BA2644DA9800B8EDC9 /* KJButtonVC.m in Sources */,
+				C99592A92644DA9800B8EDC9 /* KJLanguageVC.m in Sources */,
+				683E24FE272A48690026C747 /* KJErrorView.m in Sources */,
+				683E2547272A48690026C747 /* KJSelectControl.m in Sources */,
+				683E24FC272A48690026C747 /* KJEmitterLayer.m in Sources */,
+				687115D22263156B009EC3E0 /* KJSelectController.m in Sources */,
+				C99592BB2644DA9800B8EDC9 /* KJLabelVC.m in Sources */,
+				683E2544272A48690026C747 /* KJLanguageManager.m in Sources */,
+				C964E58C264FB7C600F56853 /* LeetCodeViewController.m in Sources */,
+				C99592B62644DA9800B8EDC9 /* KJFilterImageVC.m in Sources */,
+				683E2543272A48690026C747 /* KJLoadLanguageViewController.m in Sources */,
+				683E2542272A48690026C747 /* NSBundle+KJLanguage.m in Sources */,
+				C99592A72644DA9800B8EDC9 /* KJRuntimeTestVC.m in Sources */,
+				C99592BE2644DA9800B8EDC9 /* KJViewVC.m in Sources */,
+				68776CED21AC34A0000A1435 /* ViewController.m in Sources */,
+				6869043321B25C5C00ED072F /* KJEmitterVC.m in Sources */,
+				68776CF821AC34A0000A1435 /* main.m in Sources */,
+				C99592AF2644DA9800B8EDC9 /* KJCodeImageVC.m in Sources */,
+				687115D622631878009EC3E0 /* KJErrorVC.m in Sources */,
+				683E2500272A48690026C747 /* KJLeetCode.m in Sources */,
+				C99592B92644DA9800B8EDC9 /* KJCollectionVC.m in Sources */,
+				68776CEA21AC34A0000A1435 /* AppDelegate.m in Sources */,
+				C99592B82644DA9800B8EDC9 /* KJImageViewVC.m in Sources */,
+				687115DE22633BF0009EC3E0 /* KJSwitchVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		68776CEE21AC34A0000A1435 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68776CEF21AC34A0000A1435 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68776CF321AC34A0000A1435 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68776CF421AC34A0000A1435 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C995926B2644DA9800B8EDC9 /* KJLanguageVC.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C995926C2644DA9800B8EDC9 /* zh-Hans */,
+				C995926F2644DA9800B8EDC9 /* en */,
+			);
+			name = KJLanguageVC.xib;
+			sourceTree = "<group>";
+		};
+		C995926D2644DA9800B8EDC9 /* LocalizableTest.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C995926E2644DA9800B8EDC9 /* zh-Hans */,
+				C99592702644DA9800B8EDC9 /* en */,
+			);
+			name = LocalizableTest.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68776CF921AC34A0000A1435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		68776CFA21AC34A0000A1435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68776CFC21AC34A0000A1435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91A09EA5BB6E36BB82AB6484 /* Pods-KJEmitterView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66T6NB6T4J;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KJEmitterView/Libraries",
+					"$(PROJECT_DIR)/KJEmitterView/OpenCV",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/KJEmitterView/Resources/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/KJEmitterView/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangkejun.KJEmitterView3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68776CFD21AC34A0000A1435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD437750AE735B3C6B5BB0A3 /* Pods-KJEmitterView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66T6NB6T4J;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KJEmitterView/Libraries",
+					"$(PROJECT_DIR)/KJEmitterView/OpenCV",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/KJEmitterView/Resources/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/KJEmitterView/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangkejun.KJEmitterView3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68776CE021AC349F000A1435 /* Build configuration list for PBXProject "KJEmitterView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68776CF921AC34A0000A1435 /* Debug */,
+				68776CFA21AC34A0000A1435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68776CFB21AC34A0000A1435 /* Build configuration list for PBXNativeTarget "KJEmitterView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68776CFC21AC34A0000A1435 /* Debug */,
+				68776CFD21AC34A0000A1435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68776CDD21AC349F000A1435 /* Project object */;
+}

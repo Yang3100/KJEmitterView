@@ -1,0 +1,60 @@
+PODS:
+  - ChainThen (0.0.1)
+  - KJCategories (1.0.2):
+    - KJCategories/Core (= 1.0.2)
+  - KJCategories/Core (1.0.2):
+    - KJCategories/Core/Foundation (= 1.0.2)
+    - KJCategories/Core/UIKit (= 1.0.2)
+  - KJCategories/Core/Foundation (1.0.2)
+  - KJCategories/Core/UIKit (1.0.2)
+  - KJCategories/Foundation (1.0.2):
+    - KJCategories/Foundation/NSArray (= 1.0.2)
+    - KJCategories/Foundation/NSData (= 1.0.2)
+    - KJCategories/Foundation/NSDate (= 1.0.2)
+    - KJCategories/Foundation/NSDictionary (= 1.0.2)
+    - KJCategories/Foundation/NSNumber (= 1.0.2)
+    - KJCategories/Foundation/NSObject (= 1.0.2)
+    - KJCategories/Foundation/NSString (= 1.0.2)
+    - KJCategories/Foundation/NSTimer (= 1.0.2)
+  - KJCategories/Foundation/NSArray (1.0.2)
+  - KJCategories/Foundation/NSData (1.0.2)
+  - KJCategories/Foundation/NSDate (1.0.2)
+  - KJCategories/Foundation/NSDictionary (1.0.2)
+  - KJCategories/Foundation/NSNumber (1.0.2)
+  - KJCategories/Foundation/NSObject (1.0.2)
+  - KJCategories/Foundation/NSString (1.0.2)
+  - KJCategories/Foundation/NSTimer (1.0.2)
+  - KJCategories/UIKit/UIButton (1.0.2)
+  - KJCategories/UIKit/UICollectionView (1.0.2)
+  - KJCategories/UIKit/UIImage (1.0.2)
+  - KJCategories/UIKit/UILabel (1.0.2)
+  - KJCategories/UIKit/UINavigation (1.0.2)
+  - KJCategories/UIKit/UITextView (1.0.2)
+  - KJCategories/UIKit/UIView (1.0.2)
+  - KJCategories/UIKit/UIViewController (1.0.2)
+
+DEPENDENCIES:
+  - ChainThen
+  - KJCategories
+  - KJCategories/Foundation
+  - KJCategories/UIKit/UIButton
+  - KJCategories/UIKit/UICollectionView
+  - KJCategories/UIKit/UIImage
+  - KJCategories/UIKit/UILabel
+  - KJCategories/UIKit/UINavigation
+  - KJCategories/UIKit/UITextView
+  - KJCategories/UIKit/UIView
+  - KJCategories/UIKit/UIViewController
+
+SPEC REPOS:
+  trunk:
+    - ChainThen
+    - KJCategories
+
+SPEC CHECKSUMS:
+  ChainThen: 1788121a47c2f76f62c10a29c8a7c3e328eec3ae
+  KJCategories: 31187ea1d6f115b2cb3c4912dcca73d267705a17
+
+PODFILE CHECKSUM: fcb24ee4b9e3f294136d944d4bf47c9c8defb4d7
+
+COCOAPODS: 1.11.2
